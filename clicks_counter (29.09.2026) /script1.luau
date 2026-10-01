@@ -21,4 +21,5 @@ Part.MouseClick:Connect(function(a1)
 		end
 	end
 end)
---If this script is applied to a part and then clicked by the player one point will be added to that player's leaderboard score for each click.
+-- Adds 1 point to a player's leaderboard score each time they click this part.
+-- Works with multiple players on the same server; each player has their own score.
