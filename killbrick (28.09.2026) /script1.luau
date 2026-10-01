@@ -8,3 +8,4 @@ local function kill(a)
 end
 
 killbrick.Touched:Connect(kill)
+-- Kills any player who touches the parent part of this script.
