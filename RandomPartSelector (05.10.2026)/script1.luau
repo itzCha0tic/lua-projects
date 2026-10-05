@@ -5,7 +5,7 @@ local switch = false
 local function clicked()
 	if not switch then
 		switch = true
-		local random = math.random(1, 3)
+		local random = math.random(#Parts)
 		Parts[random].Transparency = 0.75
 		task.wait(5)
 		Parts[random].Transparency = 0
